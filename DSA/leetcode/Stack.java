@@ -1,7 +1,7 @@
 package leetcode;
 // Remove All Adjacent Duplicates In String.
 import java.util.*;
-class Solution {
+class Stack {
     public String removeDuplicates(String s) {
         Stack<Character> st = new Stack<>();
 
